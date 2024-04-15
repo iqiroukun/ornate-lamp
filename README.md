@@ -1,31 +1,13 @@
-<p align="center">
-  <img width="200" src="https://open-wc.org/hero.png"></img>
-</p>
+# ornate-lamp
+keep her company, in the dark of night.
 
-## Open-wc Starter App
+Auni,
+I have thought of a gift I could make this time, seeing you will be turning 21. 
+For this, I want to give you something that will last and still be meaningful as long as it is around.
+。
+。
+。
+大好きだから。
 
-[![Built with open-wc recommendations](https://img.shields.io/badge/built%20with-open--wc-blue.svg)](https://github.com/open-wc)
-
-## Quickstart
-
-To get started:
-
-```bash
-npm init @open-wc
-# requires node 10 & npm 6 or higher
-```
-
-## Scripts
-
-- `start` runs your app for development, reloading on file changes
-- `start:build` runs your app after it has been built using the build command
-- `build` builds your app and outputs it in your `dist` directory
-- `test` runs your test suite with Web Test Runner
-- `lint` runs the linter for your project
-- `format` fixes linting and formatting errors
-
-## Tooling configs
-
-For most of the tools, the configuration is in the `package.json` to reduce the amount of files in your project.
-
-If you customize the configuration a lot, you can consider moving them to individual files.
+ありがとうございました
+リツキ。
