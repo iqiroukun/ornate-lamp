@@ -19,7 +19,6 @@ class OrnateLamp extends LitElement {
   render() {
     return html`
       hello
-      ${this.header}
     `;
   }
 }
