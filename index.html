@@ -4,27 +4,42 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <meta name="Description" content="Auni's 21 Birthday Surprise">
+  <meta name="Description" content="Auni's 21st Birthday Surprise">
+  <link href="https://fonts.cdnfonts.com/css/didot-2" rel="stylesheet">
   <base href="/">
 
   <style>
-    html,
+    @import url('https://fonts.cdnfonts.com/css/didot-2');
+
     body {
-      margin: 0;
-      padding: 0;
-      font-family: sans-serif;
-      background-color: #ededed;
+      background-color: rgb(220, 255, 223);
     }
+    .title-wrapper {
+      top: auto;
+      text-align: center;
+      font-size: 64pt;
+      color: #383838;
+      font-family: 'Didot', sans-serif;
+    }
+    #title-card-border{
+      margin: 0 64px;
+    }
+  
   </style>
   <title>Surprise!</title>
 </head>
 
 <body>
-  <ornate-lamp></ornate-lamp>
-  <ornate-lamp></ornate-lamp>
-  <ornate-lamp></ornate-lamp>
+  <div class="title-wrapper">
+    <h1>auni qistina</h1>
+  </div>
+  <hr id="title-card-border">
+  <div class="card-wrapper">
+    <ornate-card header="hello" bgimage="./src/media/clouds.jpg"></ornate-card>
+  </div>
 
-  <script type="module" src="./src/ornate-lamp.js"></script>
+  <script type="module" src="./src/ornate-card.js"></script>
+  <script type="module" src="./src/gallery-view.js"></script>
 </body>
 
 </html>
